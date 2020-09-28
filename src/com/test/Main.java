@@ -7,7 +7,7 @@ import com.test.service.UserService;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    // write your code here
         UserServiceImpl userServiceImpl = new UserServiceImpl();
         userServiceImpl.setUserDao(new UserDaoImpl());
         userServiceImpl.getUserService();
